@@ -1,0 +1,59 @@
+@import 'template/head.less';
+@import 'template/positionlist.less';
+@import 'template/footer.less';
+@import 'template/headbar.less';
+@import 'template/positioninfo.less';
+.fs(@px){
+    font-size: unit(@px/37.5,rem);
+}
+.w(@px) {
+    width: unit(@px / 37.5, rem);
+  }
+  
+  .h(@px) {
+    height: unit(@px / 37.5, rem);
+  }
+  .lh(@px){
+      line-height: unit(@px/37.5,rem);
+  }
+  .mt(@px){
+      margin-top:unit(@px/37.5,rem); 
+  }
+  .mb(@px){
+      margin-bottom:unit(@px/37.5,rem); 
+  }
+  .ml(@px){
+      margin-left: unit(@px/37.5,rem);
+  }
+  .mr(@px){
+      margin-right: unit(@px/37.5,rem);
+  }
+@bodyBgColor:#eee;
+html,body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  body {
+    background-color: @bodyBgColor;
+    .fs(16);
+  }
+  button {
+    border-width: 0;
+    outline-width: 0;
+  }
+  ul,li{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  }
+  p{
+      margin: 0;
+      padding: 0;
+  }
+  h1,h2,h3,h4,h5{
+      margin: 0;
+      padding:0;
+  }
+    .clearfix{*height:1%;}
+    .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
