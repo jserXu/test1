@@ -1,0 +1,158 @@
+.head {
+  height: 1.06666667rem;
+  background: #12d5b5;
+  line-height: 1.06666667rem;
+}
+.head .text {
+  color: #fff;
+  display: inline-block;
+  font-size: 0.42666667rem;
+  margin-left: 0.13333333rem;
+}
+.head .loginin {
+  float: right;
+  margin-top: 0.26666667rem;
+  margin-right: 0.26666667rem;
+  background: #feae11;
+  color: #fff;
+}
+.position-list img {
+  width: 1.86666667rem;
+  height: 1.86666667rem;
+  float: left;
+  margin-right: 10px;
+}
+.position-list li {
+  background: #fff;
+  padding: 10px 5px 13px 5px;
+  border-bottom: 1px solid #ddd;
+}
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  line-height: 1.06666667rem;
+  height: 1.06666667rem;
+}
+.footer li {
+  float: left;
+  width: 33.333%;
+  text-align: center;
+}
+.footer li span {
+  display: inline-block;
+}
+.footer .zhiwei {
+  background: url(/image/document.png) no-repeat;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: 14px 6px;
+}
+.footer .search {
+  background: url(/image/search.png) no-repeat;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: 14px 6px;
+}
+.footer .me {
+  background: url(/image/my.png) no-repeat;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: 14px 6px;
+}
+.footer .select {
+  background-color: #dbf9f4;
+  color: #01c2a3;
+}
+.headbar {
+  background: #12d5b5;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  color: #fff;
+  padding: 0 5px;
+  position: relative;
+  text-align: center;
+}
+.headbar .barback {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  width: 1.06666667rem;
+}
+.position-info {
+  background: #fff;
+  padding: 30px 10px 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+.position-info p {
+  margin-bottom: 10px;
+}
+.position-info p span {
+  display: inline-block;
+  margin-right: 10px;
+}
+.position-detail {
+  background: #fff;
+  padding: 10px 5px 10px 5px;
+}
+.position-detail img {
+  float: left;
+  width: 1.86666667rem;
+  height: 1.86666667rem;
+  margin-right: 10px;
+}
+.position-detail p {
+  margin-top: 10px;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+body {
+  background-color: #eee;
+  font-size: 0.42666667rem;
+}
+button {
+  border-width: 0;
+  outline-width: 0;
+}
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+.clearfix {
+  *height: 1%;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
